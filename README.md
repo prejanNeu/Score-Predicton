@@ -269,23 +269,12 @@ python-dotenv==1.0.0
 ```
 
 
-### Step 4:### Step 4: Environment Configuration
+### Step 4: Environment Configuration
 
-Create a `.env` file in the project root:
 
-```bash
-cp .env.example .env
-```
 
 Configure environment variables:
 
-```env
-DEBUG=True
-SECRET_KEY=your-secret-key-here
-ALLOWED_HOSTS=localhost,127.0.0.1
-DATABASE_URL=sqlite:///db.sqlite3
-MODEL_PATH=ml_models/student_score_model.h5
-```
  Database Setup
 
 ```bash
