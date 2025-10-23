@@ -1,6 +1,6 @@
 # 🧠 Student Score Prediction API
 
-A Django REST Framework-based API that predicts **students’ final exam scores** using machine learning models (Neural Network, Linear Regression, and Random Forest).
+A Django REST Framework-based API that predicts **students’ final exam scores** using machine learning models (Neural Network, Linear Regression).
 
 This project preprocesses academic and behavioral data (attendance, study hours, assignments, internal marks, etc.) to forecast student performance — enabling early academic interventions.
 
@@ -38,7 +38,7 @@ The prediction is powered by machine learning models trained in Python using **T
 ## 🚀 Features
 
 ✅ Predict student final exam scores from JSON input  
-✅ Uses multiple models (Neural Network, Random Forest, Linear Regression)  
+✅ Uses multiple models (Neural Network, Linear Regression)  
 ✅ Well-preprocessed input data with scaling and encoding  
 ✅ REST API for real-time predictions  
 ✅ Easy integration with any front-end or mobile app  
@@ -56,7 +56,7 @@ The prediction is powered by machine learning models trained in Python using **T
 | **Database** | SQLite |
 | **Visualization** | Matplotlib, Seaborn |
 
----
+
 
 ## 📂 Project Structure
 
@@ -113,7 +113,6 @@ The dataset undergoes the following preprocessing:
 4. **Model Training**:
    - **Neural Network (TensorFlow)**
    - **Linear Regression (Scikit-learn)**
-   - **Random Forest Regression (Scikit-learn)**
 
 The trained neural network (`student_score_model.h5`) is then loaded into Django for prediction.
 
