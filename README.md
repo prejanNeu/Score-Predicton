@@ -268,7 +268,8 @@ seaborn==0.13.0
 python-dotenv==1.0.0
 ```
 
-### Step 4: Environment Configuration
+
+### Step 4:### Step 4: Environment Configuration
 
 Create a `.env` file in the project root:
 
@@ -285,8 +286,7 @@ ALLOWED_HOSTS=localhost,127.0.0.1
 DATABASE_URL=sqlite:///db.sqlite3
 MODEL_PATH=ml_models/student_score_model.h5
 ```
-
-### Step 5: Database Setup
+ Database Setup
 
 ```bash
 python manage.py makemigrations
@@ -294,7 +294,7 @@ python manage.py migrate
 python manage.py createsuperuser  # Optional: Create admin user
 ```
 
-### Step 6: Run Development Server
+### Step 5: Run Development Server
 
 ```bash
 python manage.py runserver
@@ -367,9 +367,7 @@ Content-Type: application/json
 ```json
 {
   "message": "Score prediction successful",
-  "predicted_final_scores": [0.8425],
-  "model_version": "1.0.0",
-  "timestamp": "2025-10-23T14:32:10Z"
+  "predicted_final_exam_scores": [0.8425],
 }
 ```
 
